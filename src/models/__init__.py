@@ -1,1 +1,1 @@
-# ATIS v4.0 — models sub-package
+# ATIS v5.0 — Models package
