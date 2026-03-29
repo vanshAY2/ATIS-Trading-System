@@ -151,7 +151,7 @@ def run():
 
     for mf in sorted(model_files):
         name = mf.stem
-        r = evaluate_model(mf, X, y, name)
+        r = evaluate_model(mf, X, y, name, features)
         results.append(r)
         status = "✅" if r.get("pass") else "❌"
         acc = r.get("accuracy", 0)
